@@ -1,0 +1,28 @@
+.search-container {
+    text-align: center;
+    background-color: #ababab;
+    padding: 10px;
+}
+
+span, form {
+    display: inline-block;
+}
+
+.filter-container {
+    text-align: center;
+    background-color: #dedede;
+    padding: 10px;
+}
+
+#print-type {
+    width: 100px;
+    margin-right: 15px;
+}
+
+#book-type {
+    width: 250px
+}
+
+#print-type, #book-type {
+    border: 1px;
+}

@@ -1,13 +1,17 @@
 {
+  "homepage":"https://github.com/wannab3d3v3lop3r/react-api-router",
   "name": "react-api-router",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "get-value": "^3.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
